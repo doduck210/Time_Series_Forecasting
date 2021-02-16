@@ -1,38 +1,8 @@
 
-#from config_gui_pm import *		# Configuration of the GUI, PyQt Ver. 4 or 5
-
-#if PYQT_VER == 5:
-#	from PyQt5 import *
-#	from PyQt5.QtCore import *
-#	from PyQt5.QtGui import *
-#	from PyQt5.QtWidgets import *
-#	from MenuBar_Grid import *
-#elif PYQT_VER == 4:
-#	from PyQt4 import *
-#	#from PyQt4 import QtGui, QtCore
-#	from PyQt4.QtCore import *
-#	from PyQt4.QtGui import *
-#	from MenuBar_Grid5 import *
-#else:
-#	print("Unexpected PYQT_VER: ", PYQT_VER)
-#	exit(0)
-
-#from MenuBar_Grid import *
 
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
-'''
-import matplotlib
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-import numpy as np
-import pandas as pd
-import datetime
-from dateutil import parser
-from pandas.plotting import scatter_matrix
-'''
 import ai_forecasting
 
 # Time Series Dialog
