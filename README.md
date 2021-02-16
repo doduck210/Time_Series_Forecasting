@@ -8,4 +8,4 @@ You can forecast any csv or xls files from : Time_Series_Forecast.py/__main__ ->
 required packages : PyQt5, matplotlib, pandas, statsmodels, numpy, fbprophet, pyplot   
 
 There are Prophet, (S)ARIMA, VAR forecasting models in it.   
-There is SARIMA Parameter autoset feature, which is using Grid search finding minimum sum of aic and bic. It may takes time to do this.
+There is SARIMA Parameter autoset feature, which is using Grid search finding minimum sum of aic and bic. It may takes time to run with this feature.
